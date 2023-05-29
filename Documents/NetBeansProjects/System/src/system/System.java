@@ -170,6 +170,14 @@ if(count < 500)
   {
 	charge = 1.00;
   }
+else if (count < 500 && count < 600)
+{
+	charge = 1.80;
+}
+else if (count < 600 && count < 800)
+{
+	charge = 2.80;
+}
     /**
      * @param args the command line arguments
      */

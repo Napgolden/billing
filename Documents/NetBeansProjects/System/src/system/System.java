@@ -27,6 +27,13 @@ public class System extends javax.swing.JFrame {
      String cid;
     double charge,gramount;
     int count;
+	
+    public void print()
+    {
+	    String cid = txtcid.getText();
+	    String cname = txtcname.getText();
+	    String unit = txtunit.getText();
+    }
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -182,9 +189,10 @@ else
 {
 	charge = 3.00
 }
+
 	
 	gramount = charge * count;
-	
+}	
     /**
      * @param args the command line arguments
      */

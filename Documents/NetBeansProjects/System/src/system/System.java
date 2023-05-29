@@ -36,6 +36,12 @@ public class System extends javax.swing.JFrame {
 	    
 	    txtprint.setText(txtprint.getText() + "\n");
 	    txtprint.setText(txtprint.getText() + "Electricity Billing System" + "\n");
+        txtprint.setText(txtprint.getText()+ "\n");
+        txtprint.setText(txtprint.getText()+ "Customer ID : =  " + cid + "\n");
+        txtprint.setText(txtprint.getText()+ "Customer Name : +  " + cname + "\n");
+        txtprint.setText(txtprint.getText()+ "Unit  : = " + unit + "\n");
+        txtprint.setText(txtprint.getText()+ "Amount  :=  "  + gramount + "\n");
+        txtprint.setText(txtprint.getText()+ "Thank You Come Again");
     }
     private void initComponents() {
 

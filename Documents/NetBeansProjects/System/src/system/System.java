@@ -24,6 +24,9 @@ public class System extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+     String cid;
+    double charge,gramount;
+    int count;
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();

@@ -158,7 +158,18 @@ public class System extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt){
+// TOdO add your handling code here!
 
+
+cid " txtcid.getText ();
+count " Integer.parseInt(txtunit.getText());
+
+
+if(count < 500)
+  {
+	charge = 1.00;
+  }
     /**
      * @param args the command line arguments
      */

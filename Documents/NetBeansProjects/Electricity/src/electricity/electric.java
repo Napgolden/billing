@@ -24,6 +24,10 @@ public class electric extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    String cid;
+    double charge, gramount;
+    int count;
+
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -161,7 +165,10 @@ public class electric extends javax.swing.JFrame {
     private void txtunitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtunitActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtunitActionPerformed
-
+       private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        cid =txtcid.getText();
+        count = IntegerparseInt(txtunit.getText());
+    }                
     /**
      * @param args the command line arguments
      */

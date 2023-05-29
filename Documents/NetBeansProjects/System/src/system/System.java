@@ -33,6 +33,9 @@ public class System extends javax.swing.JFrame {
 	    String cid = txtcid.getText();
 	    String cname = txtcname.getText();
 	    String unit = txtunit.getText();
+	    
+	    txtprint.setText(txtprint.getText() + "\n");
+	    txtprint.setText(txtprint.getText() + "Electricity Billing System" + "\n");
     }
     private void initComponents() {
 

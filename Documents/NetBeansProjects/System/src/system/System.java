@@ -178,6 +178,13 @@ else if (count < 600 && count < 800)
 {
 	charge = 2.80;
 }
+else
+{
+	charge = 3.00
+}
+	
+	gramount = charge * count;
+	
     /**
      * @param args the command line arguments
      */

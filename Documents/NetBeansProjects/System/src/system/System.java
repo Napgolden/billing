@@ -198,7 +198,6 @@ else
 {
 	charge = 3.00
 }
-
 	
 	gramount = charge * count;
 }	

@@ -199,7 +199,7 @@ else
 	charge = 3.00
 }
 	
-	gramount = charge * count;
+	grandtotal = charge * count;
 }	
     /**
      * @param args the command line arguments

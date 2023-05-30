@@ -34,13 +34,13 @@ public class System extends javax.swing.JFrame {
 	    String cname = txtcname.getText();
 	    String unit = txtunit.getText();
 	    
-	    txtprint.setText(txtprint.getText() + "\n");
-	    txtprint.setText(txtprint.getText() + "Electricity Billing System" + "\n");
+	txtprint.setText(txtprint.getText() + "\n");
+	txtprint.setText(txtprint.getText() + "Electricity Billing System" + "\n");
         txtprint.setText(txtprint.getText()+ "\n");
-        txtprint.setText(txtprint.getText()+ "Customer ID : =  " + cid + "\n");
-        txtprint.setText(txtprint.getText()+ "Customer Name : +  " + cname + "\n");
-        txtprint.setText(txtprint.getText()+ "Unit  : = " + unit + "\n");
-        txtprint.setText(txtprint.getText()+ "Amount  :=  "  + gramount + "\n");
+        txtprint.setText(txtprint.getText()+ "Customer ID :   " + cid + "\n");
+        txtprint.setText(txtprint.getText()+ "Customer Name :  " + cname + "\n");
+        txtprint.setText(txtprint.getText()+ "Unit  :  " + unit + "\n");
+        txtprint.setText(txtprint.getText()+ "Amount =  "  + gramount + "\n");
         txtprint.setText(txtprint.getText()+ "Thank You Come Again");
     }
     private void initComponents() {
@@ -178,8 +178,8 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt){
 // TOdO add your handling code here!
 
 
-cid " txtcid.getText ();
-count " Integer.parseInt(txtunit.getText());
+cid = txtcid.getText ();
+count = Integer.parseInt(txtunit.getText());
 
 
 if(count < 500)
@@ -199,7 +199,7 @@ else
 	charge = 3.00
 }
 	
-	grandtotal = charge * count;
+	gramount = charge * count;
 }	
     /**
      * @param args the command line arguments
